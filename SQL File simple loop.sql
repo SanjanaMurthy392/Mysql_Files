@@ -1,0 +1,1 @@
+call scott.simple_loop();

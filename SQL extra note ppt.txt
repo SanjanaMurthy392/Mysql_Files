@@ -1,0 +1,24 @@
+Full Join:
+
+Perform a LEFT JOIN and a RIGHT JOIN to include all rows from both tables.
+ UNION: Combines the results of the LEFT JOIN and the RIGHT JOIN.
+ WHERE table1.column IS NULL: Filters out the rows that are present in table2 but not in table1, ensuring that only the rows from table2 that do not have a matching row in table1 are included.
+
+Self Join:
+
+Here, use aliases to differentiate between the two instances of the same table.
+The join condition specifies how the two instances of the table are related to each other.
+
+Multi table join:
+
+The join condition for each pair of tables specifies how the tables are related to each other. You can use the ON clause with the JOIN keyword, or you can specify join conditions in the WHERE clause when using comma-separated table names. 
+
+Equi Join:
+
+It specifies which columns in table1 and table2 are compared for equality. 
+
+Non Equi Join:
+
+This condition can involve any comparison operators other than equality
+Non-equi joins are less common than equi joins but can be useful for complex data analysis and reporting tasks where relationships between tables are based on ranges, thresholds, or other non-equality criteria.
+

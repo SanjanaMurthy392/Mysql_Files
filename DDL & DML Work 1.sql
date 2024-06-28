@@ -1,0 +1,10 @@
+create database students;
+use students;
+create table students (student_id int, student_name varchar(20), phone_no int);
+describe students;
+insert into students values(1,'a',123);
+select * from students;
+insert into students values(2,'b',456);
+insert into students values(3,'c',765);
+insert into students values(4,'d',879);
+update students set student_name=null;
